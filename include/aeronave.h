@@ -1,5 +1,5 @@
-#ifndef AVIAO.H
-#define AVIAO_H
+#ifndef AERONAVE_H
+#define AERONAVE_H
 
 #include <stdio.h>
 #include <string.h>
@@ -12,10 +12,10 @@ typedef struct {
     float altitude;        // Altitude do avião
     float velocidade;      // Velocidade do avião
     int status;            // 0 = voando, 1 = pousando, 2 = aguardando
-} Aviao;
+} Aeronave;
 
 // Protótipos das funções
-Aviao criarAircraft(int id, char codigo[], float x, float y, float altitude, float velocidade, int status);
-void exibirAircraft(Aircraft a);
+Aeronave criarAeronave(int id, char codigo[], float x, float y, float altitude, float velocidade, int status);
+void exibirAeronave(Aeronave a);
 
-#endif // AIRCRAFT_H
+#endif // AERONAVE_H
