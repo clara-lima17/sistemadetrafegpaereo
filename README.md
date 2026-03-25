@@ -19,11 +19,11 @@ Este projeto está em fase inicial de desenvolvimento e ainda não possui implem
 
 ## 👨‍💻 Integrantes
 
+* Arthur Santiago
+* Darlan Melo
+* Maria Clara
 * Miguel Rodrigues
 * Thayanne Rego
-* Arthur Santiago
-* Maria Clara
-* Darlan
 
 ---
 
