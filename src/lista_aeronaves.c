@@ -1,5 +1,6 @@
 #include "lista_aeronaves.h"
 #include <stdio.h>
+#include "findAeronave"
 
 // Inicializa a lista zerando o contador
 void inicializarLista(ListaAeronaves *lista) {
