@@ -28,3 +28,9 @@ void exibirAeronave(Aeronave a) {
     printf("Status: %d\n", a.status); // imprime status
 
 }
+
+// função que move a aeronave somando os valores das posições
+void moverAeronave(Aeronave *a, float deltaX, float deltaY){
+    a-> x +=deltaX; //adiciona valor ao eixo X
+    a-> y +=deltaY; //adiciona valor ao eixo y
+}
