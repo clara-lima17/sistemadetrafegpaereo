@@ -55,8 +55,21 @@ int alterarStatusAeronave(ListaAeronaves *lista, int id, int novoStatus) {
             return 1;
         }
     }
-
+    
     printf("Aeronave com ID %d não encontrada.\n", id);
     return 0;
 }
+// função que procura a aeronave pelo código
+int findAeronave(Aeronave lista[], int tamanho, char callsign[]) {
 
+    // percorre toda a lista de aeronaves
+    for (int i = 0; i < tamanho; i++) {
+
+        // compara o código da lista com o código recebido
+        if (strcmp(lista[i].codigo_voo, callsign) == 0) {
+            return i;  // encontrou → retorna a posição
+        }
+    }
+
+    return 0;  // não encontrou nenhuma
+}
