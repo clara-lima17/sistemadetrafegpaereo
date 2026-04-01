@@ -72,5 +72,5 @@ int findAeronave(Aeronave lista[], int tamanho, char callsign[]) {
         }
     }
 
-    return 0;  // não encontrou nenhuma
+    return -1;  // não encontrou nenhuma
 }
