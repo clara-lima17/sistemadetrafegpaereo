@@ -31,6 +31,6 @@ void exibirAeronave(Aeronave a) {
 
 // função que move a aeronave somando os valores das posições
 void moverAeronave(Aeronave *a, float deltaX, float deltaY){
-    a-> x +=deltaX; //adiciona valor ao eixo X
-    a-> y +=deltaY; //adiciona valor ao eixo y
+    a->x +=deltaX; //adiciona valor ao eixo X
+    a->y +=deltaY; //adiciona valor ao eixo y
 }
